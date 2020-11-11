@@ -11,12 +11,12 @@ use yii\helpers\Url;
             <div class="columns">
                 <?php if (($this->params['curr_page'] != 'main')) {  ?>
                 <p class="logo link"  data-link="/" >
-                    <img src="/images/theme/logo-top.png" alt="" title="" />
+                    <img src="/themes/news/images/logo-top.png" alt="" title="" />
                     <span>Цифровая компания</span>
                 </p>
                 <?php } else { ?>
                     <p class="logo" >
-                        <img src="/images/theme/logo-top.png" alt="" title="" />
+                        <img src="/themes/news/images/logo-top.png" alt="" title="" />
                         <span>Цифровая компания</span>
                     </p>
                 <?php } ?>
