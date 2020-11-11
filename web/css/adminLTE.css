@@ -1,0 +1,55 @@
+/* .breadcrumb{
+     position: inherit;
+     float: left;
+}*/
+.login-box-body{
+
+    border-radius: 2px;
+}
+body{
+    background: none;
+    background-color: rgb(255, 255, 255) !important; ;
+}
+
+.layout-boxed {
+    background: none;;
+}
+
+.skin-yellow-light .main-header .navbar {
+    background-color: #ffffff /* rgb(204,120,50)*/;
+}
+
+.skin-yellow-light .main-header .logo{
+    background-color:   rgb(255, 255, 255) ;
+}
+
+.content-header {
+    position: relative;
+    padding: 15px 15px 15px 15px;
+}
+.main-header .logo .logo-lg {
+    color: rgb(255, 0, 111);
+}
+
+.yellow-light .main-header .logo:hover {
+    background-color: #d6d4d4;
+}
+.yellow-light .main-header .navbar .sidebar-toggle:hover {
+    background-color: #d6d4d4;
+}
+
+.primary_c_border-top {
+    border-top-color:rgb(255, 0, 111);
+}
+.primary_d_border-top {
+    border-top-color:#2adef3;
+}
+
+.skin-yellow-light .main-header li.user-header {
+    background-color: #ffffff;
+}
+
+.skin-yellow-light .main-header .navbar .nav>li>a:hover, .skin-yellow-light .main-header .navbar .nav>li>a:active, .skin-yellow-light .main-header .navbar .nav>li>a:focus, .skin-yellow-light .main-header .navbar .nav .open>a, .skin-yellow-light .main-header .navbar .nav .open>a:hover, .skin-yellow-light .main-header .navbar .nav .open>a:focus, .skin-yellow-light .main-header .navbar .nav>.active>a {
+    background: #ffffff;
+    color: black;
+}

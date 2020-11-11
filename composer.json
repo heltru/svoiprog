@@ -1,0 +1,59 @@
+{
+	"name": "elisdn/seokeys",
+	"description": "SEO-service Yii 2",
+	"homepage": "http://www.elisdn.ru",
+	"type": "project",
+	"license": "BSD-3-Clause",
+	"support": {
+		"wiki": "http://www.elisdn.ru/blog/60/seo-service-on-yii2-installing-of-application",
+		"source": "https://github.com/ElisDN/seokeys"
+	},
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*",
+		"yiisoft/yii2-bootstrap": "*",
+		"yiisoft/yii2-swiftmailer": "*",
+		"bower-asset/html5shiv": "*",
+		"bower-asset/respond": "*",
+		"bower-asset/jquery": "1.*",
+		"kartik-v/yii2-widget-datepicker": "*",
+		"kartik-v/yii2-field-range": "*",
+		"elisdn/yii2-hybrid-authmanager": "^1.0",
+		"yiisoft/yii2-imagine": "^2.1",
+		"dmstr/yii2-adminlte-asset": "^2.1",
+		"onmotion/yii2-telegram": "^0.8.5",
+		"yiisoft/yii2-httpclient": "^2.0",
+		"mervick/yii2-emojionearea": "*",
+		"mervick/emojionearea": "^3.4",
+		"kartik-v/yii2-slider": "1.3.2",
+		"2amigos/yii2-date-time-picker-widget" : "~1.0",
+		"php-ffmpeg/php-ffmpeg": "^0.14.0",
+		"kartik-v/yii2-validators": "@dev",
+		"yii2mod/yii2-selectize": "*",
+		"kartik-v/yii2-widget-timepicker": "*",
+		"janisto/yii2-timepicker": "*",
+		"kartik-v/yii2-date-range": "dev-master",
+		"google/apiclient-services": "dev-master",
+		"google/apiclient": "^2.0",
+		"wadeshuler/yii2-ckeditor-cdn": "~1.0",
+		"tinify/tinify": "^1.5"
+	},
+	"require-dev": {
+		"yiisoft/yii2-debug": "*",
+		"yiisoft/yii2-gii": "*",
+		"yiisoft/yii2-faker": "*",
+		"codeception/codeception": "~2.2.0",
+		"codeception/verify": "~0.3.1",
+		"codeception/specify": "~0.4.3"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	],
+	"config": {
+		"process-timeout": 1800
+	}
+}

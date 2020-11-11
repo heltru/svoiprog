@@ -1,0 +1,17 @@
+@import 'variables.css';
+
+.tool {
+  background-color: var(--darkGray);
+  border: none;
+  color: var(--white);
+  flex: 48 48 auto;
+  font-size: 20px;
+  max-height: 48px;
+  outline: 0;
+  width: 48px;
+}
+
+.tool:hover {
+  background-color: var(--midGray);
+  cursor: pointer;
+}

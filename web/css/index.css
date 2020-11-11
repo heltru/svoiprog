@@ -1,0 +1,23 @@
+@import 'components/app.css';
+@import 'components/menu.css';
+@import 'components/menu-item.css';
+@import 'components/main.css';
+@import 'components/palette.css';
+@import 'components/color.css';
+@import 'components/canvas.css';
+@import 'components/tools.css';
+@import 'components/tool.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  height: 100vh;
+  overflow-x: visible;
+  width: 100vw;
+  flex-direction: column;
+}
