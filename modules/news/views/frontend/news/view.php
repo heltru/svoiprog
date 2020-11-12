@@ -4,13 +4,15 @@ use app\modules\news\models\News;
 
 $bc_cat = $news->newsCat_r->name;
 $bc_cat_url = \yii\helpers\Url::to(['/news/cat/view', 'id' => $news->news_cat_id]);
-
+$is_admin = \app\modules\helper\models\Helper::getIsAdmin(Yii::$app->user->getId());
 ?>
+<?php if ($is_admin){ ?>
 <style>
     div[data-role="news_block"]:hover {
         border: 1px solid #cecbcb;
     }
 </style>
+<?php } ?>
 <main id="content" class="info-page">
     <div class="content-container">
         <ul class="breadcrumb">
