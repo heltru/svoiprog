@@ -7,7 +7,7 @@ $page =  ( isset($this->params['curr_page'])) ? $this->params['curr_page'] : '' 
         <form data-owner="footer" method="post" action="<?= \yii\helpers\Url::to(['basket/send-call']) ?>" class="spnForm">
             <input type="text" name="name" placeholder="Введите Ваше имя">
             <input type="text" name="phone" placeholder="Введите Ваш телефон">
-            <input type="submit" class="button" value="Жми" >
+            <input type="submit" class="button" value="Получить консультацию" >
         </form>
     </div>
     <div id="footer-columns" class="columns">
