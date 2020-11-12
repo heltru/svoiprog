@@ -32,6 +32,9 @@ use yii\helpers\Html;
 </header> <!-- end of header -->
 
 <?= $content ?>
+<footer id="footer">
+    <?= $this->render('//footer/footer') ?>
+</footer><!-- end of footer -->
 
 
 <?php $this->endBody() ?>
