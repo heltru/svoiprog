@@ -348,7 +348,7 @@ class CardRule  implements UrlRuleInterface
 
             $query->andWhere(['public'=> Url::P_OK]);
 
-            $query->andWhere([ '<=',   'url.last_mod', $today . ' 00:00:00']);
+          //  $query->andWhere([ '<=',   'url.last_mod', $today . ' 00:00:00']);
             //$query->andWhere([ '<=',   new Expression('DATE(url.last_mod)'), $today]);
         }
         return $query;
