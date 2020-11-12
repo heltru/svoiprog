@@ -29,6 +29,10 @@ AssetLandingEnd::register($this);
     <body>
     <?php echo $this->render('//gtm/openbody') ?>
     <?php $this->beginBody() ?><?= $content ?>
+    <footer id="footer">
+        <?= $this->render('//footer/footer') ?>
+    </footer><!-- end of footer -->
+
     <?php $this->endBody() ?>
     </body>
     </html>
