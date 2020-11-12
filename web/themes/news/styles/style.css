@@ -191,7 +191,7 @@ p, a, ul li, ol li, span, div{
     height: 30px;
     font-size: 0;
     cursor: pointer;
-    background: transparent url("../images/theme/mobile-menu.png") no-repeat left center;
+    background: transparent url("../images/mobile-menu.png") no-repeat left center;
 }
 #main-menu .columns{
     display: block;
@@ -360,6 +360,9 @@ p, a, ul li, ol li, span, div{
 	-o-transform: translateY(50%);
 	transform: translateY(50%);        
 }
+.visible{
+    z-index: 999 !important;
+}
 #header-middle #city #city-block.visible{
     z-index: 130;
     opacity: 1;
@@ -443,7 +446,7 @@ p, a, ul li, ol li, span, div{
     text-align: left;      
     margin: 0 2% 0 0;
     padding: 25px 0 25px 23px;
-    background: transparent url('../images/theme/phone.png') no-repeat left center;
+    background: transparent url('../images/phone.png') no-repeat left center;
     white-space: nowrap;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3674,7 +3677,7 @@ p, a, ul li, ol li, span, div{
 .product{
     display: inline-block;
     width: 100%;    
-    height: 390px;
+    height: 318px;
     margin: 0;
     overflow: hidden;    
     vertical-align: top;
@@ -6299,10 +6302,11 @@ form #delivery-info label.radio-label.active span::before{
     }
     #sotrudnichestvo-list ul{
         display: inline-block;
-    }    
+    }
+    /*
     #content-main{
         margin-top: 70px;
-    }
+    }*/
     #categories-block{
         position: absolute;
         left: 50%;
@@ -6671,7 +6675,7 @@ form #delivery-info label.radio-label.active span::before{
         font-size: 0;
         margin: 0;
         padding: 0;
-        background: transparent url('../images/theme/phone-mobile.png') no-repeat center center;
+        background: transparent url('../images/phone-mobile.png') no-repeat center center;
         z-index: 15;
     }
     #header-middle #city{
@@ -7254,9 +7258,10 @@ form #delivery-info label.radio-label.active span::before{
     #sotrudnichestvo-list ul{
         display: inline-block;
     }
+    /*
     #content-main{
         margin-top: 70px;
-    }
+    }*/
     #categories-block{
         position: absolute;
         left: 50%;
@@ -7817,7 +7822,7 @@ form #delivery-info label.radio-label.active span::before{
         font-size: 0;
         margin: 0;
         padding: 0;
-        background: transparent url('../images/theme/phone-mobile.png') no-repeat center center;
+        background: transparent url('../images/phone-mobile.png') no-repeat center center;
         z-index: 15;
     }
     #header-middle #city{
@@ -7852,7 +7857,7 @@ form #delivery-info label.radio-label.active span::before{
     #product-menu{
         position: absolute;
         left: 0;
-        top: 265px;
+        top: 73px;
         width: 100%;
         padding: 0;
         background: #ffd801;
@@ -8585,9 +8590,10 @@ form #delivery-info label.radio-label.active span::before{
         width: 100%;
         margin: 0;
     }
+    /*
     #content-main{
         margin-top: 70px;
-    }
+    }*/
     #categories-block{
         position: absolute;
         left: 0;

@@ -104,7 +104,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     if (is_object($model)) {
 
                         $ret = '<div class="btn-group" style="" role="group" aria-label="Операции">';
-                        $url = \yii\helpers\Url::to(['/news/delete', 'id' => $model->id]);
+                        $url = \yii\helpers\Url::to(['delete', 'id' => $model->id]);
                         $ret .= ' <div class="btn-group" role="group">';
                         $ret .= '<a href="' . $url . '" 
                                     title="Удалить" class="btn btn-default" aria-label="Удалить" 

@@ -21,8 +21,8 @@ class NewsController extends Controller
 
         if ($url == null) {
             $url = Url::find()->
-            where(['identity' => $id, 'controller' =>
-                \app\modules\news\service\News::$url_controller,
+            where(['identity' => $id,
+                'controller' =>\app\modules\news\service\News::$url_controller,
                 'module' => \app\modules\news\service\News::$url_module,
                 'action' => 'view'])->one();
         }

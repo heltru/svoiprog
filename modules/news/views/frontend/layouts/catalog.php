@@ -40,6 +40,10 @@ use yii\helpers\Html;
 </main><!-- end of main -->
 
 
+<footer id="footer">
+    <?= $this->render('//footer/footer') ?>
+</footer><!-- end of footer -->
+
 
 <?php $this->endBody() ?>
 

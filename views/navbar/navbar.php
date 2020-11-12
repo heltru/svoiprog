@@ -11,17 +11,7 @@ use yii\helpers\Html;
                 <?= ( $page == 'main' ) ? '<span>'.Yii::$app->params['siteName'].'</span>' : '<a href="/">'.Yii::$app->params['siteName'].'</a>'?>
             </li>
 
-            <li>
-                <?php
-                if ($page == 'kontakty'){
-                    echo '<span>Контакты</span>';
-                } elseif ($page == 'main'){
-                    echo '<a href="/kontakty">Контакты</a>';
-                } else {
-                    echo '<a class="link" data-link="/kontakty">Контакты</a>';
-                }
-                ?>
-            </li>
+
         </ul>
 
     </div>

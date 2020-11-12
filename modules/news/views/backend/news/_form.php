@@ -66,6 +66,29 @@ use yii\widgets\Pjax;
 
     <?php echo $this->render('@app/modules/url/views/backend/url/_form', ['url' => $url, 'form' => $form]); ?>
 
+    <div class="row">
+        <div class="col-xs-12">
+            <?php
+            $tab_contentHeader = [
+
+                '190_215'=>'190_215 Каталог-Сайт',
+
+            ]; ?>
+            <script type='text/javascript'>
+                <?php
+                $php_array = array_keys($tab_contentHeader);
+                $js_array = json_encode($php_array);
+                echo "var matrSize = " . $js_array . ";\n";
+                ?>
+            </script>
+            <?php
+            echo $this->render('@app/modules/image/views/image/img_form', ['dataProviderImgLinks' =>
+                $dataProviderImgLinks, 'tab_contentHeader' => $tab_contentHeader]);
+            ?>
+        </div>
+    </div>
+
+
     <?= Html::submitButton($model->isNewRecord ? 'Добавить' : 'Обновить', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
 
 

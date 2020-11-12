@@ -54,22 +54,19 @@ $page = Yii::$app->request->get('page');
 
         <aside id="aside">
 
-            <div id="categories-block">
-                <?php
-                //ex($catItems);
-                ?>
-                <?=   $this->render('_cats',['category' =>$category,'url' =>$url,'catItems'=>$catItems]); ?>
-            </div>
+            <!-- <div id="categories-block"> -->
+                <?php //echo $this->render('_cats',['category' =>$category,'url' =>$url,'catItems'=>$catItems]); ?>
+            <!-- </div> -->
 
             <div id="sotrudnichestvo-list">
                 <p class="aside-subtitle">Предлагаем различные варианты сотрудничества</p>
                 <ul>
-                    <li id="zakupki" class="link" data-link="/sotrudnichestvo#zakupki"><span>Совместные закупки</span></li>
-                    <li id="opt" class="link" data-link="/sotrudnichestvo#opt"><span>Оптовые заказы</span></li>
-                    <li id="chertezh" class="link" data-link="/sotrudnichestvo#chertezh"><span>Индивидуальные заказы по чертежам</span></li>
-                    <li id="proizvodstvo" class="link" data-link="/sotrudnichestvo#proizvodstvo"><span>Производство продукции под любым брендом</span></li>
-                    <li id="agent" class="link" data-link="/sotrudnichestvo#agent"><span>Агентские продажи</span></li>
-                    <li id="dropshipping" class="link" data-link="/sotrudnichestvo#dropshipping"><span>Дропшиппинг</span></li>
+                    <li id="zakupki" class="link" ><span>Вёрстка</span></li>
+                    <li id="opt" class="link"><span>Программирование</span></li>
+                    <li id="chertezh" class="link" ><span>Дизайн</span></li>
+                    <li id="proizvodstvo" class="link"><span>Прототипирование web-сервисов</span></li>
+                    <li id="agent" class="link" ><span>Копирайтинг</span></li>
+                    <li id="dropshipping" class="link" ><span>Реклама</span></li>
                 </ul>
             </div>
         </aside>

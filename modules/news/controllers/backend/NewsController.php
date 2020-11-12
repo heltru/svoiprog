@@ -95,7 +95,7 @@ class NewsController extends Controller
                     $action = 'view',
                     \app\modules\news\service\News::$url_module
                 );
-                $url->update(false, ['controller', 'identity', 'action']);
+                $url->update(false, ['controller', 'identity', 'action','module']);
                 $model->beforeSave(false);
 
 
@@ -191,7 +191,8 @@ class NewsController extends Controller
 
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+
+        \app\modules\news\service\News::delete($id);
 
         return $this->redirect(['index']);
     }
@@ -365,10 +366,8 @@ class NewsController extends Controller
     public function actionNewsDescrDel()
     {
         $id = (int)Yii::$app->request->post()['id'];
-        $model = NewsBlock::findOne(['id' => $id]);
-        if ($model !== null) {
-            $model->delete();
-        }
+        \app\modules\news\service\News::deleteBlock($id);
+
     }
 
     public function actionNewsDescrChangeStatus()
@@ -454,7 +453,6 @@ class NewsController extends Controller
             if ($block->getErrors()) {
                 throw  new \Exception(print_r($block->getErrors(), 1));
             }
-
 
 
         } catch (\Throwable $e) {

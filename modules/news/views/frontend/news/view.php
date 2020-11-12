@@ -34,9 +34,9 @@ $bc_cat_url = \yii\helpers\Url::to(['/news/cat/view', 'id' => $news->news_cat_id
     </div><!-- end of content-container -->
 
 </main><!-- end of content -->
-
+<?php if (\app\modules\helper\models\Helper::getIsAdmin(Yii::$app->user->id) ){ ?>
 <!-- WindowsModal NewsBlockEdit -->
-<div id="wndNewsBlockEdit">
+<div id="wndNewsBlockEdit" style="display: none">
     <form>
         <div data-role="content">
         </div>
@@ -47,3 +47,4 @@ $bc_cat_url = \yii\helpers\Url::to(['/news/cat/view', 'id' => $news->news_cat_id
     </form>
 
 </div>
+<?php } ?>
