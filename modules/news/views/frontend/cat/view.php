@@ -59,14 +59,14 @@ $page = Yii::$app->request->get('page');
             <!-- </div> -->
 
             <div id="sotrudnichestvo-list">
-                <p class="aside-subtitle">Предлагаем различные варианты сотрудничества</p>
+                <p class="aside-subtitle">Что можем сделать</p>
                 <ul>
-                    <li id="zakupki" class="link" ><span>Вёрстка</span></li>
-                    <li id="opt" class="link"><span>Программирование</span></li>
-                    <li id="chertezh" class="link" ><span>Дизайн</span></li>
-                    <li id="proizvodstvo" class="link"><span>Прототипирование web-сервисов</span></li>
-                    <li id="agent" class="link" ><span>Копирайтинг</span></li>
-                    <li id="dropshipping" class="link" ><span>Реклама</span></li>
+                    <li id="dropshipping" class="link" ><span>Задачи маркетинга</span></li>
+                    <li id="zakupki" class="link" ><span>Личный кабинет</span></li>
+                    <li id="opt" class="link"><span>Админку</span></li>
+                    <li id="proizvodstvo" class="link"><span>Интернет-магазин</span></li>
+                    <li id="chertezh" class="link" ><span>Онлайн-школу</span></li>
+                    <li id="agent" class="link" ><span>Платежный сервис</span></li>
                 </ul>
             </div>
         </aside>
