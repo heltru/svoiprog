@@ -14,7 +14,7 @@ class  AssetMain extends AssetBundle
     public $baseUrl = '@web/themes/news';
     public $css = [
 
-        'styles/style.css',
+        'styles/style.css?234',
         'fancy/jquery.fancybox.min.css',
         'styles/slick-slider.css',
 
