@@ -963,12 +963,12 @@ p, a, ul li, ol li, span, div{
     transform: scale(1.1);    
 }
 #products .product-columns .product:last-child > .image-container img{
-    -moz-transition: all 0.5s ease-out;
+   /* -moz-transition: all 0.5s ease-out;
     -webkit-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
     width: 239px;
-    padding-top: 23px;
+    padding-top: 23px;*/
 }
 #products .product-columns .product span{
     display: block;
